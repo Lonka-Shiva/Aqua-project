@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Aqua-project</title>
 </head>
 <body>
-    <nav>
-        <ul>
+    <nav class="container">
+        <ul class=".navigation-menu">
             <li><a href="#Live Plants">Live Plants</a></li>
             <li><a href="#Live Fish">Live Fish</a></li>
             <li><a href="#Kits">Kits</a></li>
@@ -17,13 +18,16 @@
             <li><a href="#About">About</a></li>
             <li><a href="#Contact">Contact</a></li>
         </ul>
-        <img src="/images/63de868edd106636841b2c2c_habitat-logo.svg" alt="image" class="logo">
     </nav>
+        <img src="/images/63de868edd106636841b2c2c_habitat-logo.svg" alt="image" class="logo">
     
-    <div class="Heading">
+        <div class="learn-more-btn">
+            <p>Shop Kits</p>
+        </div>
+     <div class="Heading">
        <h1>Live Plants</h1>
        <p>Shop our large collection of live premium aquatic plants and algaes.</p>
-    </div>
+     </div>
 
     <ul>
         <li><a href="#View all">View all</a></li>
@@ -33,19 +37,63 @@
         <li><a href="#Clearance">Clearance</a></li>
     </ul>
       
-        <div class="search-bar">
+        <!-- <div class="search-bar">
                 <input type="text" id="name" name="text" placeholder="Keyword" class="label">
                 <input type="text" id="name" name="text" placeholder="Rocks" class="label">
                 <input type="text" id="name" name="text" placeholder="Under $25" class="label">
                 <input type="text" id="name" name="text" placeholder="Beginner" class="label">
+        </div> -->
+
+         <div class="container">
+         <form class="nosubmit">
+         <input class="nosubmit" type="search" placeholder="Keyword">
+         </form>
+
+        <div class="Slots">
+            <select id="items">  
+                <option value="">Rocks</option>
+                <option value="LV">Live Plants</option>
+                <option value="LF">Live Fish</option>
+                <option value="TA">Tanks & Accessories</option> 
+               </select>
+
+               <select id="items">  
+                <option value="">Under$25</option>
+                <option value="LV">Live Plants</option>
+                <option value="LF">Live Fish</option>
+                <option value="TA">Tanks & Accessories</option> 
+               </select>
+
+               <select id="items">  
+                <option value="">Beginner</option>
+                <option value="LV">Live Plants</option>
+                <option value="LF">Live Fish</option>
+                <option value="TA">Tanks & Accessories</option> 
+               </select>
         </div>
+    </div>
 
         <div class="products">
-            <img src="/images/63e2bd3fea5b8545775ca921_Group 190.jpg" alt="plant" class="plant">
+            <figure>
+            <img src="/images/63e2bd3fea5b8545775ca921_Group 190.jpg" alt="" class="plant">
+            <figcaption>Caption 1</figcaption>
+            </figure>
+
+            <figure>
             <img src="/images/63e2bd6cf07cb6e2fea95170_Group 197.jpg" alt="" class="plant">
+            <figcaption>Caption 2</figcaption>
+            </figure>
+
+            <figure>
             <img src="/images/63e2bd36e3d44f38d4b41b3e_Group 189.jpg" alt="" class="plant">
-            <img src="/images/63e2837aeb88f43b23c46412_beta.jpg" alt="" class="plant">
-        </div>
+            <figcaption>Caption 3</figcaption>
+            </figure>
+
+            <figure>
+             <img src="/images/63e2bd36e3d44f38d4b41b3e_Group 189.jpg" alt="" class="plant">
+             <figcaption>Caption 3</figcaption>
+            </figure>
+        </div> 
 
 </body>
 </html>
