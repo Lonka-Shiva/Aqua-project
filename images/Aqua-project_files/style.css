@@ -9,50 +9,42 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: white; 
+ 
+  background-color: white; /* Optional: Add background color to the header */
 }
 .logo-container{
-  padding: 30px 15px 10px 55px;
+  padding: 30px 15px 10px 35px;
 }
 .logo {
-  width: 100px; 
-  height: auto; 
+  width: 100px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
 }
 
 nav ul {
   list-style: none;
   margin: 0;
-  padding: 0 30px;
+  padding: 0;
   display: flex;
 }
 
 nav li {
-  margin: 0 5px; 
+  margin: 0 10px; /* Adjust the margin as needed */
 }
 
 nav a {
   text-decoration: none;
-  color: #333; 
+  color: #333; /* Optional: Set the link color */
 }
-
-/* container two styling */
-
-.container-two{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding:0 5px;
-}
-
 .Heading{
   margin-left: 50px;
-  width: 80%;
 }
 
 .learn-more-btn {
   position: absolute;
+  z-index: 3;
   font-family: Raleway, sans-serif;
   margin-left: 1100px;
+  cursor: pointer;
   padding: 0 0 40px 0;
   text-align: center;
   font-size: 15px;
@@ -63,28 +55,14 @@ nav a {
 }
 
  /* second listed items */
-
-.container-three{
-  display: flex;
-  align-items: center;
-}
-.filter{
-  margin-left: 50px;
-  padding: 0 0 40px 0;
-  text-align: center;
-  font-size: 15px;
-  margin-top: 30px;
-  width: 100px;
-  border: 3px solid black;
-  height: 5px;
-}
   ul {
-    list-style: none;
+    list-style-type: none;
     margin: 0;
     padding: 0;
+    overflow: hidden;
     justify-content: center;
     width: 100%;
-    display: flex; 
+    
   }
 
   li {
@@ -94,35 +72,42 @@ nav a {
   li a {
     display: inline-block;
     color: black;
+    text-align: center;
     padding: 10px 0 5px 100px;
     text-decoration: none;
   }
 
-  .container-four {
-    display: flex;
-    justify-content: space-between;
+  /* .label{
+    margin-left: 55px;
     align-items: center;
-    padding: 10px; /* Add padding as needed */
+    width: 270px;
+    height: 30px;
+  }
+  .search-bar{
+    margin-top: 30px;
+  } */
+  /* .plant{
+    width: 250px;
+    height: 300px;
+    margin-left: 15px;
+  } */
+.container{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-
-.Slots {
-    display: flex;
+  form.nosubmit {
+    border: none;
+    padding: 0;
+   }
+   .nosubmit {
+    margin-right: 0; /* Adjust the margin as needed */
 }
-
-select {
-    margin-right: 10px; /* Adjust margin as needed */
-}
-
-.section {
-    display: flex;
-    align-items: center;
-}
-
-
    input.nosubmit {
-    display: flex;
-     margin-left: 40px; 
+    margin-left: -75px;
+    margin-right: 10px;
      border: 1px solid #ddd;
      height: 38px;
      width: 280px;
@@ -145,18 +130,12 @@ select {
     margin-right: 40px;
 }
 
-
-.labels{
-  padding: 10px 5px;
-  display: flex;
-  justify-content: space-around;
-}
-
    .products{
     display: flex;
-    justify-content:center; 
+    justify-content: space-between; 
     margin: 0;
-    margin-top: 30px;  
+    margin-top: 30px;
+    width: 1320px;
   } 
   
   figure {
@@ -165,43 +144,11 @@ select {
   }
 
   .plant {
-    max-width: 80%;
+    max-width: 80%; 
     margin-bottom: 2px;
     margin-left: 45px;
   }
 
-  .image content{
-    text-align: left;
-  }
-
   figcaption {
     margin-top: 2px; 
-    
-  }
-  .section-color{
-    margin-top: 100px;
-    background: black;
-    height: 300px;
-    width: 100%;
-  }
-  .component-data{
-    position: absolute;
-    z-index: 3;
-    color: #ddd;
-    margin-top: 50px;
-    margin-left: 50px;
-  }
-  .component-para{
-    position: absolute;
-    z-index: 3;
-    color: #ddd;
-    margin-top: 80px;
-    margin-left: 50px;
-  }
-  .component-list > ul{
-    position: absolute;
-    z-index: 3;
-    color: #ddd;
-    margin-top: 120px;
-    margin-left: 150px;
   }
