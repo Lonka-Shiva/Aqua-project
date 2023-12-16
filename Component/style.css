@@ -1,4 +1,5 @@
 * {
+  
   box-sizing: border-box;
 }
 body{
@@ -102,7 +103,7 @@ nav a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px; /* Add padding as needed */
+    padding: 10px; 
 }
 
 
@@ -111,7 +112,7 @@ nav a {
 }
 
 select {
-    margin-right: 10px; /* Adjust margin as needed */
+    margin-right: 10px;
 }
 
 .section {
@@ -152,6 +153,16 @@ select {
   justify-content: space-around;
 }
 
+  /* .colum-image{
+    float: left;
+    width: 22.22%;
+    padding: 15px;
+  }
+  .row-images::after {
+    display: flex;
+    
+  } */
+
    .products{
     display: flex;
     justify-content:center; 
@@ -184,6 +195,12 @@ select {
     height: 300px;
     width: 100%;
   }
+
+
+
+
+
+
   .component-data{
     position: absolute;
     z-index: 3;
@@ -204,4 +221,14 @@ select {
     color: #ddd;
     margin-top: 120px;
     margin-left: 150px;
+  }
+  .e-section{
+    position: absolute;
+    z-index: 3;
+    margin-top: 50px;
+    margin-left: 800px;
+  }
+  button{
+
+    margin-left: 200px;
   }
